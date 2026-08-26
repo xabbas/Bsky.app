@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluesky</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="user">
+        <div class="user-main">
+            <div class="logo">
+                <img src="assets//bsky.svg" alt="Bluesky Logo">
+            </div>
+            <div class="welcome">
+                <p>Join the conversation</p>
+            </div>
+            <div class="accounts">
+                <button id="signup">Create account</button>
+                <button id="signin">Sign in</button>
+            </div>
+            <div class="lang">
+                <select name="languages" id="lang">
+                    <option value="default">English</option>
+                    <option value="1">Urdu</option>
+                    <option value="2">Farsi</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="discover navitem active">
+                <button class="navbutton">Discover</button>
+            </div>
+            <div class="feed navitem">
+                <button class="navbutton">Feeds ✨</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="trends">
+        <div class="trends-box">
+            <div class="search">
+                <input type="text" id="search" placeholder="Search">
+            </div>
+            <div class="trending">
+                <div class="trending-head">
+                    <div id="trend-heading">
+                        <span>Trending</span>
+                    </div>
+                    <div class="trend-hide">
+                        <button>
+                            <img src="assets//hamburger.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="trendings">
+                    <ol>
+                        <li>Arsenal vs. Coventry</li>
+                        <li>Food safety outbreaks spread across US</li>
+                        <li>Food safety outbreaks spread across US</li>
+                        <li>Flock surveillance cameras face backlash</li>
+                        <li>GTA 6 leaks spread </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="tos">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Help</a>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

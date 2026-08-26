@@ -1,0 +1,281 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #151D28;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0px;
+    font-family: Roboto, sans-serif;
+    display: flex;
+
+}
+
+.user {
+    border-right: 1px solid #2C3A4E;
+    min-height: 100vh;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.user-main {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 230px;
+    font-weight: 700;
+    font-size: 25px;
+    width: 250px;
+}
+
+.welcome p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.logo img {
+    width: 33px;
+}
+
+.accounts button {
+    color: white;
+    border: none;
+    border-radius: 35px;
+    padding: 10px 15px;
+    background: none;
+    font-size: 15px;
+
+}
+
+#signup {
+    background-color: #0F73FF;
+}
+
+#signup:hover {
+    background-color: #4D97FF;
+}
+
+#signin {
+    background-color: #222E3F;
+    color: #ABB8C9;
+}
+
+#signin:hover {
+    background-color: #2C3A4E;
+}
+
+.lang select {
+    appearance: none;
+    color: white;
+    background: none;
+    border: none;
+    padding: 8px 25px 8px 25px;
+    border-radius: 5px;
+    margin: 15px 0 0 7px;
+    background-image: url("assets//globe.svg"), url("assets//arrow-down.svg");
+    background-repeat: no-repeat;
+    background-position: left, right;
+    font-size: 15px;
+}
+
+.lang select:hover {
+    background-color: #222E3F;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main {
+    width: 40%;
+}
+
+.navbar {
+    display: flex;
+    height: 50px;
+    border-bottom: 1px solid #2C3A4E;
+}
+
+.navitem {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.navitem:hover {
+    background-color: #1C2736;
+    cursor: pointer;
+}
+
+.navbutton {
+    color: #ABB8C9;
+    font-weight: 600;
+    background: none;
+    border: none;
+    font-size: 15px;
+}
+
+.active {
+    color: white;
+    border-bottom: 1px solid #3B82F6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.trends {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #2C3A4E;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.trends-box {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 20px;
+}
+
+#search {
+    font-weight: 100;
+    border: none;
+    border-radius: 10px;
+    color: #697C97;
+    background-color: #222E3F;
+    font-size: 17px;
+    padding: 10px 10px 10px 48px;
+    height: 25px;
+    width: 300px;
+    background-image: url(assets//search.svg);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+}
+
+#search::placeholder {
+    font-weight: 100;
+    opacity: 1;
+}
+
+#search:hover {
+    box-shadow: inset 0 0 0 2px #2C3A4E;
+}
+
+#search:focus {
+    outline: none;
+    box-shadow: inset 0 0 0 2px #0F73FF;
+
+}
+
+.trending {
+    border: 1px solid #2C3A4E;
+    width: 300px;
+    padding: 10px 10px 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.trending-head {
+    display: flex;
+
+}
+
+#trend-heading,
+#trend-heading span {
+    font-size: 20px;
+    color: white;
+    width: 90%;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#trend-heading span::before {
+    content: url(assets//trend.svg);
+}
+
+.trend-hide button {
+    background: none;
+    border: none;
+    color: #ABB8C9;
+    font-size: 20px;
+    padding: 0 7px;
+}
+
+.trend-hide button:hover {
+    background-color: #222E3F;
+    border-radius: 50%;
+    padding: 0 7px;
+}
+
+.trendings {
+    margin-top: 10px;
+}
+
+.trendings ol {
+    font-size: 14px;
+    text-decoration: none;
+    color: #ABB8C9;
+    padding-left: 20px;
+
+}
+
+.trendings li {
+    padding-left: 8px;
+    list-style-type: decimal;
+}
+
+.trendings li::marker {
+    color: #586C89;
+}
+
+.trendings li:hover {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+.tos {
+    margin-top: 10px;
+}
+
+.tos a {
+    text-decoration: none;
+    color: #A3B0C1;
+}
+
+.tos a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.tos a:not(:first-child)::before {
+    content: "• ";
+    font-size: 10px;
+}
